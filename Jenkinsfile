@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh docker run justb4/jmeter
+              
                  }
         }
         stage('Deploy') {
